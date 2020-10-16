@@ -1,0 +1,294 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+.main{
+	color: #333;
+}
+.top{
+	width: 100%
+}
+.row{
+	display: flex;
+	align-items:center;
+	margin-top: 10px;
+}
+.item-top {
+	margin-left: 15px;
+}
+.item-top img {
+	margin-left: 15px;
+}
+.item-top-search form{
+	margin-left: 300px;
+}
+.item-top-search form input{
+	align-items: center;
+}
+.item-top-info{
+	margin-left: 370px;
+}
+.menuTop {
+	background: #ac0001;
+	height: 50px;
+}
+.menuTop ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+.menuTop ul li{
+	list-style-type: none;
+	height: 50px;
+}
+.menuTop ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 0 40px;
+	line-height: 50px;
+}
+.menuTop ul li div ul li{
+	padding-top: 5px;
+}
+.menuTop ul li div ul li a {
+	font-size: 15px;
+}
+.active{
+	background: red;
+}
+.sub-menu-1{
+	display: none;
+}
+.menuTop ul li:hover .sub-menu-1{
+	position: absolute;
+	display:block;
+	background: red;
+	
+
+}
+.menuTop ul li:hover .sub-menu-1 ul{
+	display: block;
+}
+.col-sm-2{
+	border: 1px solid #f5f5f5;
+	box-shadow: 0 3px 3px 3px #f5f5f5;
+	background: #f5f5f5;
+	height: 370px;
+	margin-left: 50px;
+	width: 250px;
+}
+.col-sm-2 ul{
+	width: 300px;
+}
+.col-sm-2 ul li {
+	margin-left: 15px;
+}
+
+.col-sm-2 ul li a{
+	margin-top:  10px;
+	display: block;
+	padding: 4px 8px;
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+.title-menu {
+	background: #fff;
+	color: black;
+}
+.title-menu i {
+	margin-right: 10px;
+}
+.slide{
+	margin-left: 30px;
+}
+/* đổi màu số điện thoại với email*/
+.item-top-info .hotline a,.item-top-info .email a{
+	color:red;
+	font-weight: bold;
+}
+.newAndContact{
+	width: 300px;
+	float: left;
+}
+.LienHe{
+	margin-left: 50px;
+}
+.list-group-item{
+	list-style-type: none;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+	padding: 15px 12px;
+	align-items: center;
+	border: 1px solid #f5f5f5;
+	box-shadow: 0 3px 3px 3px #f5f5f5;
+	background: #f5f5f5;
+}
+.feature-title{
+    font-size: 13px;
+    line-height: 20px;
+    color: #f16b6f;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.feature-title p{
+	font-family: 'Roboto', sans-serif;
+}
+.list-group-item a img{
+	float: left;
+}
+.conten{
+	margin-left: 50px;
+}
+.tinTuc{
+	margin-top: 40px;
+	margin-left: 50px;
+}
+.tinTuc a{
+	font-size: 20px;
+	line-height: 22px;
+	text-decoration: none;
+	color: black;
+}
+.tinTuc p{
+	color:#acacac; 
+}
+.noiDung{
+	list-style-type: none;
+}
+.noiDung li a{
+	font-size: 18px;
+	line-height: 22px;
+	text-decoration: none;
+	color: black;
+}
+.body{
+	margin-top: 30px;
+}
+.product{
+	float: left;
+	margin-left: 30px;
+}
+.titleName h3{
+	    top: 0;
+    left: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #363636;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f16b6f;
+    margin-bottom: -1px;
+}
+.titleName{
+	    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #363636;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+.titleName a{
+	margin-left: 650px;
+	text-decoration: none;
+	color: red;
+}
+
+.more-article{
+	float: left;
+	margin-left: 50px;
+}
+.more-article p img{
+	height: 179.88px;
+	width: 179.88px;
+}
+.more-article p{
+	width: 179.88px;
+}
+.more-article p a{
+	text-decoration: none;
+	color: blue;
+}
+
+.Cabinet{
+	margin-top: 280px;
+}
+.khoaVP{
+	margin-top: 300px;
+}
+.titleKhoa h3{
+	    top: 0;
+    left: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 18px;
+    line-height: 20px;
+    color: #363636;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f16b6f;
+    margin-bottom: -1px;
+}
+.titleKhoa a{
+	margin-left: 550px;
+	text-decoration: none;
+	color: red;
+	font-family: Times New Roman;
+}
+.footer{
+	margin-top: 60px;
+	float: left;
+}
+.info{
+	margin-left: 50px;
+	width: 360px;
+}
+.des{
+	font-size: 17px;
+
+}
+.sp, .giaiPhap, .dichVu, .taiKhoan{
+	width: 195px;
+}
+.sp ul li a{
+	text-decoration: none;
+}
+.info ul, .sp ul, .giaiPhap ul, .dichVu ul, .taiKhoan ul{
+	list-style-type: none;
+    padding: 0px;
+    margin: 30px 0 0 0;
+    font-size: 13px;
+    color: #707070;
+    line-height: 20px;
+}
+.sp ul li a, .giaiPhap ul li a, .dichVu ul li a, .taiKhoan ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	color: #707070;
+}
+.widget-item .widget-title {
+    top: 0;
+    left: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #363636;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f16b6f;
+    margin-bottom: -1px;
+}
+
+.sub-menu-1 li {
+	background:#ac0001 ;
+}
+
+
+.sp, .giaiPhap, .dichVu, .taiKhoan{
+	margin-left: 30px;
+}
